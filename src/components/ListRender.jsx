@@ -29,7 +29,7 @@ const ListRender = () => {
 
     /** com id */
     const deleteRandom = () => {
-        debugger
+        // debugger
         const numberRandom = Math.floor(Math.random() * 3)
         console.log(numberRandom)
         setUsers(prevList2 => {
